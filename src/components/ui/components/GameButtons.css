@@ -1,0 +1,19 @@
+.game-button {
+  background-color: transparent;
+  border-radius: 10px;
+  width: 100%;
+  padding: 8px 0px;
+}
+
+.back-to-menu {
+  color: #E7D6EE;
+  background-color: #974BB8;
+  border-color: #974BB8;
+  margin-top: 8px;
+}
+
+.give-up, .play-again {
+  color: #E7D6EE;
+  background-color: #582C6B;
+  border-color: #582C6B;
+}

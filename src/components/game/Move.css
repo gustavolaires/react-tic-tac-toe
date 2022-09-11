@@ -1,0 +1,23 @@
+.move-button-container {
+  background-color: transparent;
+}
+
+.move-button {
+  background-color: transparent;
+  border: none;
+  font-size: 10vh;
+  padding-bottom: 10px;
+  text-align: center;
+
+  width: 32vw;
+  max-width: 196px;
+  height: 32vw;
+  max-height: 196px;
+}
+
+@media only screen and (min-aspect-ratio: 1/1) {
+  .move-button {
+    width: 32vh;
+    height: 32vh;
+  }
+}

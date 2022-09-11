@@ -1,0 +1,15 @@
+
+* {
+  font-size: 3vh;
+}
+
+.game-container {
+  background-color: #E7D6EE;
+  padding: 1vh 1vw;
+}
+
+@media screen and (max-height: 350px) {
+  * {
+    font-size: 14px;
+  }
+}

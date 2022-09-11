@@ -1,0 +1,17 @@
+.board-container {
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+.board-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.border-bottom {
+  border-bottom: 4px solid #582C6B;
+}
+
+.border-right {
+  border-right: 4px solid #582C6B;
+}

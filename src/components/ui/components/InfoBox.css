@@ -1,0 +1,48 @@
+.info-box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.player-tag {
+  display: inline-block;
+  width: 4em;
+  max-width: 150px;
+  padding-bottom: 8px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.border-rounded {
+  border: 10px solid;
+  border-radius: 10px;
+}
+
+.red {
+  border-color: #752923;
+  background-color: #752923;
+  color: #E7D6EE;
+}
+
+.blue {
+  border-color: #2C407A;
+  background-color: #2C407A;
+  color: #E7D6EE;
+}
+
+.red-and-blue {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: #E7D6EE;
+  background: linear-gradient(270deg, #752923 0%, #2C407A 100%);
+  padding: 10px 0px;
+}
